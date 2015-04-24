@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix())
 
 ## cacheSolve function will calculate the inverse square matrix getting input from the above funtion 
 
-cacheSolve <- function(x, ...) 
+cacheSolve <- function(x, ...)  
 {
      ins <- x$getinverse()
  
